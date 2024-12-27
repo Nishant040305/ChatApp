@@ -1,0 +1,9 @@
+{
+  "LandingPage": "/",
+  "Login": "/login",
+  "Dashboard": "/dashboard",
+  "WebsiteBuilder": "/builder/:projectID",
+  "Settings": "/settings",
+  "ProfilePage": "/profilepage",
+  "SocialMain": "/social"
+}

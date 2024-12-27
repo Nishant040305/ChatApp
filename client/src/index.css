@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+
+/* canvas component global */
+.canvas-component {
+  overflow: auto !important;
+  resize: both !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.canvas-component:active {
+  z-index: 1 !important;
+}
+
+/* canvas component dark */
+.canvas-component-dark:hover {
+  background-color: #333 !important;
+  color: #f0f0f0 !important;
+  box-shadow: 4px 4px 10px #00000066 !important;
+}
+
+.canvas-component-dark:active {
+  background-color: #333 !important;
+  color: #f0f0f0 !important;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4) !important;
+  transform: scale(0.98) !important;
+}
+
+/* canvas component light */
+.canvas-component-light:hover {
+  box-shadow: 0 0 8px #007BFF !important;
+}
+
+.canvas-component-light:active {
+  box-shadow: 0 0 8px #007BFF !important;
+}
+
+@tailwind utilities;
